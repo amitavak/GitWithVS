@@ -18,7 +18,9 @@ namespace GitWithVS
                     Age = 26
                 };
 
+                //Display person name
                 Console.WriteLine("Hello, {0}!!", person.Name);
+
                 Console.WriteLine("You are {0} years old.", person.Age);
             }
             catch(Exception ex)
