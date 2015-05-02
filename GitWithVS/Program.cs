@@ -12,7 +12,10 @@ namespace GitWithVS
         {
             try
             {
-                Console.WriteLine("Hello, GIT!!");
+                Console.Write("Enter your name: ");
+                var name = Console.ReadLine();
+
+                Console.WriteLine("Hello, {0}!!", name);
             }
             catch(Exception ex)
             {
