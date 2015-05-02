@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GitWithVS
 {
+    //This is a person class
     public class Person
     {
         public string Name { get; set; }
