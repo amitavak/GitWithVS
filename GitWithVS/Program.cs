@@ -10,7 +10,14 @@ namespace GitWithVS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, GIT!!");
+            try
+            {
+                Console.WriteLine("Hello, GIT!!");
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Exception occured. Message: {0}", ex.Message);
+            }
 
             Console.ReadKey(true);
         }
