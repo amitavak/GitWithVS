@@ -19,6 +19,6 @@ namespace GitWithVS
         /// <summary>
         /// Age of the person
         /// </summary>
-        public string Age { get; set; }
+        public int Age { get; set; }
     }
 }

@@ -12,10 +12,14 @@ namespace GitWithVS
         {
             try
             {
-                Console.Write("Enter your name: ");
-                var name = Console.ReadLine();
+                Person person = new Person
+                {
+                    Name = "Amitava Karan",
+                    Age = 25
+                };
 
-                Console.WriteLine("Hello, {0}!!", name);
+                Console.WriteLine("Hello, {0}!!", person.Name);
+                Console.WriteLine("You are {0} years old.", person.Age);
             }
             catch(Exception ex)
             {
