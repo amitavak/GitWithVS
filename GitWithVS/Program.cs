@@ -14,8 +14,8 @@ namespace GitWithVS
             {
                 Person person = new Person
                 {
-                    Name = "Amitava Karan",
-                    Age = 25
+                    Name = "Sagar Kshetri",
+                    Age = 26
                 };
 
                 Console.WriteLine("Hello, {0}!!", person.Name);
